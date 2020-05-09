@@ -1,0 +1,23 @@
+Task 0:
+ Complexity=O(1)
+ No iteration needed only first and last values to be printed
+Task 1:
+ Complexity=O(n)
+ Here the set is defined and the mobile numbers are get added to the set.
+ At last len of the set gets printed.
+Task 2:
+ Complexity=O(n*n)
+ Here the dictionary is used:
+       key=mobile number
+       value=duration
+ Got the maximum value from dictionary 
+Task 3:
+ Complexity=O(n)
+ Checks wheather the code starts with (080) and make a count and find the averge by counting
+the code with recived call also.
+Task 4:
+ Complexity=O(n*n)
+ Here the three set are formed in order to get the unquie values of  send texts,
+ receive texts or receive incoming calls.
+ The recived call is stored in the set where it does not belongs to the other sets.
+ Then set is converted to list and sorted. 
