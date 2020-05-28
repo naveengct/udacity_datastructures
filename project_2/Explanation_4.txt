@@ -1,0 +1,17 @@
+Problem statement:
+ To find the user in the group.
+ 
+Design Structure:
+  # We are having The user and the Group as the input.
+  # We get the Users in the Present Group and iterate it to find the presence of the user if it is then we return True.
+  # We get the sub-Groups in the Group and resursively call the function with the sub-Groups if anyone returns True we exit the iteration and Return True.
+  
+Time Complexity:
+  We get the Users and Iterate then in complexity of O(u) as when have u users.
+  We get the Sub Groups and recursively call them ,if we have g groups.
+  Then the total time complexity will be O(g * u) when we have g groups with their depth.
+  
+Space complexity:
+  O(depth)=> For recursive calculations
+  O(e)=> For members and groups
+  O(depth+e) =>Total complexity

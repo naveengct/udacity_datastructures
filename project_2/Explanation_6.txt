@@ -1,0 +1,17 @@
+Problem statement:
+ Make Union and Intersection Sets of Two sets.
+ 
+Design structure:
+  # We are having Linked list class with Append, size functions.
+  # In union I have set to eliminate the duplicates in both the linked list and append it.
+  # In Intersection if the value present in the first list then gets appended to the intersection 
+    list and sets are used to remove the duplicates.
+  # Return both the union and intersection pointer.  
+
+Time Complexity:
+   It takes O(n) to iterate the First list.
+   It takes O(m) to iterte the second list.
+   so as a whole it may take O(n+m) for union and intersection.
+
+ Space Complexity:
+  It takes O(n) blocks for union and intersection list and O(1) for the head. 
